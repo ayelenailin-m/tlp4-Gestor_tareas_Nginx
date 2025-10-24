@@ -3,7 +3,7 @@ import { TaskList } from "./components/TaskList";
 function App() {
   return (
     <div className="min-h-screen bg-background">
-      <header className="bg-gradient-to-r from-primary via-primary-dark to-primary border-b border-primary-light/20 shadow-lg shadow-primary/20">
+      <header className="bg-linear-to-r from-primary via-primary-dark to-primary border-b border-primary-light/20 shadow-lg shadow-primary/20">
         <div className="max-w-6xl mx-auto px-4 py-6">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center shadow-lg shadow-secondary/50">
