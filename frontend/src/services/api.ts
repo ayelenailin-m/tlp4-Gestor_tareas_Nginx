@@ -1,6 +1,6 @@
 import type { Task } from "../types/task";
 
-const BASE = "http://localhost:3000/api/tasks";
+const BASE = "/api/tasks";
 
 export async function fetchTasks(): Promise<Task[]> {
   const res = await fetch(BASE);
